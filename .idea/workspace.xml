@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="27780c47-357e-41b8-8981-056df8207b50" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2018_12_28_163133_create_categories_table.php" afterPath="$PROJECT_DIR$/database/migrations/2018_12_28_163133_create_categories_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2018_12_28_163150_create_products_table.php" afterPath="$PROJECT_DIR$/database/migrations/2018_12_28_163150_create_products_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2018_12_28_163156_create_transactions_table.php" afterPath="$PROJECT_DIR$/database/migrations/2018_12_28_163156_create_transactions_table.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,12 +18,14 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AppServiceProvider.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
+      <file leaf-file-name="2018_12_28_184224_category_product_table.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2018_12_28_184224_category_product_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" column="41" lean-forward="false" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-              <folding />
+            <state relative-caret-position="713">
+              <caret line="31" column="49" lean-forward="true" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
+              <folding>
+                <element signature="e#7#45#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -43,7 +48,12 @@
         <option value="$PROJECT_DIR$/app/Category.php" />
         <option value="$PROJECT_DIR$/app/Buyer.php" />
         <option value="$PROJECT_DIR$/app/Transaction.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2018_12_28_163133_create_categories_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2018_12_28_163150_create_products_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2018_12_28_163156_create_transactions_table.php" />
         <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2018_12_28_184224_category_product_table.php" />
       </list>
     </option>
   </component>
@@ -100,7 +110,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="routes" />
+              <option name="myItemId" value="database" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -114,39 +124,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="restful-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="restful-demo" />
+              <option name="myItemId" value="database" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="restful-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="restful-demo" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Providers" />
+              <option name="myItemId" value="migrations" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -246,12 +228,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1546014194906</updated>
-      <workItem from="1546014196260" duration="5403000" />
+      <workItem from="1546014196260" duration="6689000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5403000" />
+    <option name="totallyTimeSpent" value="6689000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1339" extended-state="6" />
@@ -358,21 +340,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <marker date="1546020808626" expanded="true" signature="91:731" ph="{...}" />
-            <marker date="1546020808626" expanded="true" signature="212:331" ph="..." />
-            <marker date="1546020808626" expanded="true" signature="368:440" ph="{...}" />
-            <marker date="1546020808626" expanded="true" signature="470:530" ph="{...}" />
-            <marker date="1546020808626" expanded="true" signature="566:629" ph="{...}" />
-            <marker date="1546020808626" expanded="true" signature="663:729" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Category.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -460,11 +427,110 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="25" column="63" lean-forward="false" selection-start-line="25" selection-start-column="63" selection-end-line="25" selection-end-column="63" />
+          <folding>
+            <marker date="1546021731509" expanded="true" signature="11:147" ph="..." />
+            <marker date="1546021731509" expanded="true" signature="189:1023" ph="{...}" />
+            <marker date="1546021731509" expanded="true" signature="199:259" ph=" Run the migrations. ..." />
+            <marker date="1546021731509" expanded="true" signature="286:868" ph="{...}" />
+            <marker date="1546021731509" expanded="true" signature="316:860" ph="..." />
+            <marker date="1546021731509" expanded="true" signature="354:859" ph="..." />
+            <marker date="1546021731509" expanded="true" signature="877:941" ph=" Reverse the migrations. ..." />
+            <marker date="1546021731509" expanded="true" signature="970:1021" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2018_12_28_163133_create_categories_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="18" column="48" lean-forward="false" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+          <folding>
+            <marker date="1546021832135" expanded="false" signature="11:133" ph="..." />
+            <marker date="1546021832135" expanded="true" signature="180:685" ph="{...}" />
+            <marker date="1546021832135" expanded="true" signature="190:250" ph=" Run the migrations. ..." />
+            <marker date="1546021832135" expanded="true" signature="277:525" ph="{...}" />
+            <marker date="1546021832135" expanded="true" signature="307:517" ph="..." />
+            <marker date="1546021832135" expanded="true" signature="350:516" ph="..." />
+            <marker date="1546021832135" expanded="true" signature="534:598" ph=" Reverse the migrations. ..." />
+            <marker date="1546021832135" expanded="true" signature="627:683" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <marker date="1546020808626" expanded="true" signature="91:731" ph="{...}" />
+            <marker date="1546020808626" expanded="true" signature="212:331" ph="..." />
+            <marker date="1546020808626" expanded="true" signature="368:440" ph="{...}" />
+            <marker date="1546020808626" expanded="true" signature="470:530" ph="{...}" />
+            <marker date="1546020808626" expanded="true" signature="566:629" ph="{...}" />
+            <marker date="1546020808626" expanded="true" signature="663:729" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2018_12_28_163150_create_products_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="20" column="52" lean-forward="true" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
+          <folding>
+            <marker date="1546022086011" expanded="true" signature="11:150" ph="..." />
+            <marker date="1546022086011" expanded="true" signature="195:991" ph="{...}" />
+            <marker date="1546022086011" expanded="true" signature="205:265" ph=" Run the migrations. ..." />
+            <marker date="1546022086011" expanded="true" signature="292:833" ph="{...}" />
+            <marker date="1546022086011" expanded="true" signature="322:825" ph="..." />
+            <marker date="1546022086011" expanded="true" signature="363:824" ph="..." />
+            <marker date="1546022086011" expanded="true" signature="842:906" ph=" Reverse the migrations. ..." />
+            <marker date="1546022086011" expanded="true" signature="935:989" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="41" lean-forward="false" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-          <folding />
+        <state relative-caret-position="92">
+          <caret line="4" column="39" lean-forward="false" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+          <folding>
+            <marker date="1546022580012" expanded="true" signature="122:433" ph="{...}" />
+            <marker date="1546022580012" expanded="true" signature="132:208" ph=" Bootstrap any application services. ..." />
+            <marker date="1546022580012" expanded="true" signature="237:291" ph="{...}" />
+            <marker date="1546022580012" expanded="true" signature="300:375" ph=" Register any application services. ..." />
+            <marker date="1546022580012" expanded="true" signature="408:431" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2018_12_28_163156_create_transactions_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="73" lean-forward="false" selection-start-line="23" selection-start-column="73" selection-end-line="23" selection-end-column="73" />
+          <folding>
+            <marker date="1546022265464" expanded="false" signature="11:133" ph="..." />
+            <marker date="1546022265464" expanded="true" signature="182:917" ph="{...}" />
+            <marker date="1546022265464" expanded="true" signature="192:252" ph=" Run the migrations. ..." />
+            <marker date="1546022265464" expanded="true" signature="279:755" ph="{...}" />
+            <marker date="1546022265464" expanded="true" signature="309:747" ph="..." />
+            <marker date="1546022265464" expanded="true" signature="354:746" ph="..." />
+            <marker date="1546022265464" expanded="true" signature="764:828" ph=" Reverse the migrations. ..." />
+            <marker date="1546022265464" expanded="true" signature="857:915" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2018_12_28_184224_category_product_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="31" column="49" lean-forward="true" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
+          <folding>
+            <element signature="e#7#45#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

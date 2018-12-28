@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27780c47-357e-41b8-8981-056df8207b50" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2018_12_28_163133_create_categories_table.php" afterPath="$PROJECT_DIR$/database/migrations/2018_12_28_163133_create_categories_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2018_12_28_163150_create_products_table.php" afterPath="$PROJECT_DIR$/database/migrations/2018_12_28_163150_create_products_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2018_12_28_163156_create_transactions_table.php" afterPath="$PROJECT_DIR$/database/migrations/2018_12_28_163156_create_transactions_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,13 +14,13 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="2018_12_28_184224_category_product_table.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2018_12_28_184224_category_product_table.php">
+      <file leaf-file-name="AppServiceProvider.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="713">
-              <caret line="31" column="49" lean-forward="true" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
+            <state relative-caret-position="115">
+              <caret line="5" column="38" lean-forward="false" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
               <folding>
-                <element signature="e#7#45#0#PHP" expanded="true" />
+                <element signature="e#33#72#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -52,8 +48,8 @@
         <option value="$PROJECT_DIR$/database/migrations/2018_12_28_163133_create_categories_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_12_28_163150_create_products_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_12_28_163156_create_transactions_table.php" />
-        <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_12_28_184224_category_product_table.php" />
+        <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
       </list>
     </option>
   </component>
@@ -228,12 +224,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1546014194906</updated>
-      <workItem from="1546014196260" duration="6689000" />
+      <workItem from="1546014196260" duration="6714000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6689000" />
+    <option name="totallyTimeSpent" value="6714000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1339" extended-state="6" />
@@ -493,20 +489,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="39" lean-forward="false" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
-          <folding>
-            <marker date="1546022580012" expanded="true" signature="122:433" ph="{...}" />
-            <marker date="1546022580012" expanded="true" signature="132:208" ph=" Bootstrap any application services. ..." />
-            <marker date="1546022580012" expanded="true" signature="237:291" ph="{...}" />
-            <marker date="1546022580012" expanded="true" signature="300:375" ph=" Register any application services. ..." />
-            <marker date="1546022580012" expanded="true" signature="408:431" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2018_12_28_163156_create_transactions_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
@@ -529,7 +511,24 @@
         <state relative-caret-position="713">
           <caret line="31" column="49" lean-forward="true" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
           <folding>
-            <element signature="e#7#45#0#PHP" expanded="true" />
+            <marker date="1546022755319" expanded="true" signature="11:133" ph="..." />
+            <marker date="1546022755319" expanded="true" signature="179:809" ph="{...}" />
+            <marker date="1546022755319" expanded="true" signature="189:249" ph=" Run the migrations. ..." />
+            <marker date="1546022755319" expanded="true" signature="276:643" ph="{...}" />
+            <marker date="1546022755319" expanded="true" signature="306:635" ph="..." />
+            <marker date="1546022755319" expanded="true" signature="355:634" ph="..." />
+            <marker date="1546022755319" expanded="true" signature="652:716" ph=" Reverse the migrations. ..." />
+            <marker date="1546022755319" expanded="true" signature="745:807" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="38" lean-forward="false" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+          <folding>
+            <element signature="e#33#72#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

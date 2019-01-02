@@ -66,9 +66,8 @@ class UserController extends ApiController
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, User $user)
     {
-        $user = User::findOrFail($id);
 
         $rules = [
             'email' => 'email|unique:users, email,' . $user->id,

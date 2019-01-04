@@ -44,4 +44,17 @@ class Product extends Model
     {
         return $this->belongsToMany(Category::class);
     }
+
+    // This should change product to unavailable when quantity reaches zero
+    public static function boot()
+    {
+        parent::boot();
+        parent::updating(function (self $product) {
+            if ($product->quantity == 0 && $product->isAvailable()) {
+                $product->status = self::UNAVAILABLE_PRODUCT;
+            }
+        });
+    }
+
+
 }
